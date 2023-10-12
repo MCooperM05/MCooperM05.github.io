@@ -1,10 +1,10 @@
 body {
-    background: darkred;
+    background: #004281;
     font-family: Arial, Helvetica, sans-serif;
   }
   
   h1 {
-  color: white;
+  color: whitesmoke;
   text-align: center;
   }
 
@@ -13,14 +13,14 @@ body {
     font-weight: bold;
   }
   
-  .assign {
+  .assign1 {
     display: flex;
     padding: 10px;
     margin: 10px;
-    background: gray;
+    background: steelblue;
   }
   
-  .assign img {
+  .assign1 img {
     width: 200px;
     padding: 10px;
   }
@@ -29,7 +29,7 @@ body {
     display: flex;
     padding: 10px;
     margin: 10px;
-    background: gray;
+    background: steelblue;
   }
   
   .assign2 img {
@@ -42,3 +42,27 @@ body {
     color: black;
   }
 
+  .assign2 a:visited {
+    color: darkred;
+  }
+
+  .assign3 {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    background: steelblue;
+  }
+  
+  .assign3 img {
+    width: 200px;
+    padding: 10px;
+  }
+
+  .assign3 a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .assign3 a:visited {
+    color: darkred;
+  }
