@@ -1,21 +1,44 @@
 body {
-  background: darkred;
-  font-family: Arial, Helvetica, sans-serif;
-}
+    background: darkred;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  h1 {
+  color: white;
+  text-align: center;
+  }
 
-h1 {
-color: white;
-text-align: center;
-}
+  p {
+    color: whitesmoke;
+    font-weight: bold;
+  }
+  
+  .assign {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    background: gray;
+  }
+  
+  .assign img {
+    width: 200px;
+    padding: 10px;
+  }
 
-.assign {
-  display: flex;
-  padding: 10px;
-  margin: 10px;
-  background: gray;
-}
+  .assign2 {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    background: gray;
+  }
+  
+  .assign2 img {
+    width: 300px;
+    padding: 10px;
+  }
+  
+  .assign2 a {
+    text-decoration: none;
+    color: black;
+  }
 
-.assign img {
-  width: 200px;
-  padding: 10px;
-}
