@@ -66,3 +66,24 @@ body {
   .assign3 a:visited {
     color: darkred;
   }
+
+  .assign4 {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    background: steelblue;
+  }
+  
+  .assign4 img {
+    width: 400px;
+    padding: 10px;
+  }
+
+  .assign4 a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .assign4 a:visited {
+    color: darkred;
+  }
