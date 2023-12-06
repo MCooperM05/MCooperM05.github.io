@@ -1,159 +1,59 @@
 body {
-    background: #004281;
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  h1 {
+  background-color: #004281;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+}
+h1 {
+  color: black;
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+h1:hover {
   color: whitesmoke;
   text-align: center;
   width: 100%;
-  }
+  display: block;
+}
 
-  p {
-    color: whitesmoke;
-    font-weight: bold;
-  }
-  
-  .assign1 {
-    /* display: flex; */
-    padding: 10px;
-    margin: 10px;
-    background: steelblue;
-    width: 20%;
-    border-radius: 10px;
-    box-shadow: 8px 8px red;
-    display: block;
+p {
+  color: whitesmoke;
+  font-weight: bold;
+}
 
-  }
-  
-  .assign1 img {
-    width: 200px;
-    padding: 10px;
-  }
+a {
+  text-decoration: none;
+  color: black;
+}
 
-  .assign2 {
-    /* display: flex; */
-    padding: 10px;
-    margin: 10px;
-    background: steelblue;
-    width: 35%;
-    border-radius: 10px;
-    box-shadow: 8px 8px red;
-    display: block;
-  }
-  
-  .assign2 img {
-    width: 350px;
-    padding: 10px;
-  }
-  
-  .assign2 a {
-    text-decoration: none;
-    color: black;
-  }
+a:visited{
+  color: darkred;
+}
 
-  .assign2 a:visited {
-    color: darkred;
-  }
+.assign {
+  background-color: steelblue;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  display: block;
+  width: 20%;
+  box-shadow: 8px 8px brown;
+}
+.assign img {
+  width: 200px;
+  margin: 10px;
+  border: 2px solid darkred;
+}
+.assign img:hover {
+  width: 200px;
+  margin: 10px;
+  border: 2px dotted whitesmoke;
+}
 
-  .assign3 {
-    /* display: flex; */
-    padding: 10px;
-    margin: 10px;
-    background: steelblue;
-    width: 20%;
-    border-radius: 10px;
-    box-shadow: 8px 8px red;
-    display: block;
-  }
-  
-  .assign3 img {
-    width: 200px;
-    padding: 10px;
-  }
-
-  .assign3 a {
-    text-decoration: none;
-    color: black;
-  }
-
-  .assign3 a:visited {
-    color: darkred;
-  }
-
-  .assign4 {
-    /* display: flex; */
-    padding: 10px;
-    margin: 10px;
-    background: steelblue;
-    width: 35%;
-    border-radius: 10px;
-    box-shadow: 8px 8px red;
-    display: block;
-  }
-  
-  .assign4 img {
-    width: 350px;
-    padding: 10px;
-  }
-
-  .assign4 a {
-    text-decoration: none;
-    color: black;
-  }
-
-  .assign4 a:visited {
-    color: darkred;
-  }
-
-  .assign5 {
-    /* display: flex; */
-    padding: 10px;
-    margin: 10px;
-    background: steelblue;
-    width: 35%;
-    border-radius: 10px;
-    box-shadow: 8px 8px red;
-    display: block;
-  }
-  
-  .assign5 img {
-    width: 350px;
-    padding: 10px;
-  }
-
-  .assign5 a {
-    text-decoration: none;
-    color: black;
-  }
-
-  .assign5 a:visited {
-    color: darkred;
-  }
-
-  .assign6 {
-    /* display: flex; */
-    padding: 10px;
-    margin: 10px;
-    background: steelblue;
-    width: 30%;
-    border-radius: 10px;
-    box-shadow: 8px 8px red;
-    display: block;
-  }
-  
-  .assign6 img {
-    width: 300px;
-    padding: 10px;
-  }
-
-  .assign6 a {
-    text-decoration: none;
-    color: black;
-  }
-
-  .assign6 a:visited {
-    color: darkred;
-  }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
